@@ -28,7 +28,7 @@ class App extends Component {
           <Bar bar={this.state.bar} />
         </p>
         <footer>
-          <div>Please Drink Responsibly, Don't Drink and Drive. Get an <a href="https://www.uber.com/">Uber</a> or <a href="https://www.lyft.com/">Lyft</a></div>
+          <div>Please Drink Responsibly, Don't Drink and Drive. Get an <a onClick={()=> window.open("https://www.uber.com/", "_blank")}>Uber</a> or <a onClick={()=> window.open("https://www.lyft.com/", "_blank")}>Lyft</a></div>
         </footer>
       </div>
     );
